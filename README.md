@@ -2,7 +2,7 @@
 
 Make a hash map (dashamap), your future self will be grateful after that *fateful* interview
 
-Build a hash-map. The idea is to have an array of nodes, each node them having a linked-list behind it.
+Build a hash-map. The idea is to have an array of nodes, each Node them having a linked-list behind it.
 
 ![Image of Data Structure for HashMap](./DataStructureHashMap.png)
 Why?
@@ -92,7 +92,7 @@ When you set a word/value pair: (this is pseudocode)
 }
 ```
 
-`append-to` is a method that attaches the created node with the word as the key, the integer as the value,
+`append-to` is a method that attaches the created Node with the word as the key, the integer as the value,
 at the end of the linked list attached to the hash-array head list-pointer.
 
 When you get a word/value pair: 
@@ -106,7 +106,7 @@ When you get a word/value pair:
 ```
 
 `find-in(array-slot, key-word)` returns the Node that contains the key-word in the `k` field.
-(you may want to just do a simple linear search to find the node that has the key in it).
+(you may want to just do a simple linear search to find the Node that has the key in it).
 
 and the Hard One is `delete(key-word)`
 
